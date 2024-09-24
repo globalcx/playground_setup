@@ -9,7 +9,7 @@
 
 ## 1. Instalação do Pythony
 
-    O Python vem instalado por padrão no Debian 12, assim como em outras distros Linux. Para verificar a versão do Python instalada em seu sistema operacional, digite
+O Python vem instalado por padrão no Debian 12, assim como em outras distros Linux. Para verificar a versão do Python instalada em seu sistema operacional, digite
 
     python --version
 
@@ -24,13 +24,18 @@ Para instalar o Visual Studio Code no Debian, há diversas formas, cofnorme abai
 
 **Segunda forma:**
 
-    a. [Entre no link] (https://code.visualstudio.com/), escolha baixar a versão .deb. 
-
-    b. O arquivo será baixado para a pasta Downloads. Entre na pasta e abra um terminal. Espera-se que o usuário saiba navegar pelos directórios do Debian, tanto na forma visual quando via terminal. Caso necessário, sugere-se realizar um trainamento básico de Linux Debian.
-
-    c. Digita udo dpkg -i code_1.93.1-1726079302_amd64.deb. 
+a. [Entre no link] 
+    (https://code.visualstudio.com/)
     
-    A versão do VSCode será aquela que o usuaŕio baixar. Este é apenas um exemplo. Trocando a ersão, funcionará perfeitamente.
+Escolha baixar a versão .deb. 
+
+ b. O arquivo será baixado para a pasta Downloads. Entre na pasta e abra um terminal. Espera-se que o usuário saiba navegar pelos directórios do Debian, tanto na forma visual quando via terminal. Caso necessário, sugere-se realizar um trainamento básico de Linux Debian.
+
+c. Digita 
+    
+    sudo dpkg -i code_1.93.1-1726079302_amd64.deb. 
+    
+A versão do VSCode será aquela que o usuaŕio baixar. Este é apenas um exemplo. Trocando a ersão, funcionará perfeitamente.
 
 
 Há outras formas de instalar a ferramenta no Debian 12, como uso do isntalador de pacote Snap, mas as duas acima já são suficientes.
